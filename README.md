@@ -9,7 +9,7 @@ This file demonstrates how to write math equations using LaTeX inside a Markdown
 
 ## ✅ Inline Math
 
-Euler's identity: `$e^{i\pi} + 1 = 0$`
+Euler's identity: $e^{i\pi} + 1 = 0$
 
 ---
 
