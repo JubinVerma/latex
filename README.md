@@ -1,64 +1,60 @@
 # latex
 
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{amsfonts}
-\usepackage[utf8]{inputenc}
 
-\title{LaTeX Math Examples}
-\author{ChatGPT}
-\date{\today}
+# 📐 LaTeX Math Examples in Markdown
 
-\begin{document}
+This file demonstrates how to write math equations using LaTeX inside a Markdown file using `$...$` for inline and `$$...$$` for display math.
 
-\maketitle
+---
 
-\section*{Inline Math}
+## ✅ Inline Math
 
-Euler's identity: $e^{i\pi} + 1 = 0$
+Euler's identity: `$e^{i\pi} + 1 = 0$`
 
-\section*{Display Math}
+---
 
-\subsection*{Pythagorean Theorem}
+## ✅ Display Math
+
+### Pythagorean Theorem
 $$
 a^2 + b^2 = c^2
 $$
 
-\subsection*{Fractions}
+### Fractions
 $$
 \frac{a + b}{c + d}
 $$
 
-\subsection*{Summation}
+### Summation
 $$
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
 $$
 
-\subsection*{Integral}
+### Integral
 $$
 \int_0^1 x^2 \, dx
 $$
 
-\subsection*{Square Roots}
+### Square Roots
 $$
 \sqrt{x}, \quad \sqrt[3]{x + 1}
 $$
 
-\subsection*{Limits}
+### Limits
 $$
 \lim_{x \to 0} \frac{\sin x}{x} = 1
 $$
 
-\subsection*{Greek Letters and Symbols}
+### Greek Letters and Symbols
 $$
 \alpha, \beta, \gamma, \delta, \theta, \pi, \infty
 $$
+
 $$
 \leq, \geq, \neq, \approx, \pm
 $$
 
-\subsection*{Matrix}
+### Matrix
 $$
 \begin{bmatrix}
 1 & 2 \\
@@ -66,7 +62,7 @@ $$
 \end{bmatrix}
 $$
 
-\subsection*{System of Equations}
+### System of Equations
 $$
 \begin{cases}
 x + y = 1 \\
@@ -74,4 +70,6 @@ x - y = 3
 \end{cases}
 $$
 
-\end{document}
+---
+
+> 💡 Tip: Use this with Jupyter Notebooks, Obsidian, or VS Code with Markdown Preview Enhanced to see rendered math.
